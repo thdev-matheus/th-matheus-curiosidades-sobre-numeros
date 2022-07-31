@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade: Buscando dados na Numbers API</title>
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/modal.css">
+</head>
+<body>
+  <h1 class="titulo">números significam muito</h1>
+  <section class="containerPrincipal">
+
+    <section class="container__info">
+      <h2 class="titulos">curiosidades sobre datas</h2>
+      <section class="inputs">
+        <input id="inputData" class="inputData" type="date" min="0000-00-00" max="0000-12-31">
+        <button id="botaoPesquisaData" class="botaoPesquisar">pesquisar</button>
+      </section>
+      <div class="resultadoPesquisa">
+        <p id="conteudoData" class="conteudo">
+
+        </p>
+      </div>
+    </section>
+    
+    <section class="container__info">
+      <h2 class="titulos">curiosidades sobre anos</h2>
+      <section class="inputs">
+        <input id="inputAno" class="inputAno" type="number" placeholder="Digite um Ano">
+        <button id="botaoPesquisaAno" class="botaoPesquisar">pesquisar</button>
+      </section>
+      <div class="resultadoPesquisa">
+        <p id="conteudoAno" class="conteudo">
+
+        </p>
+      </div>
+    </section>
+
+    <section class="container__info">
+      <h2 class="titulos">curiosidades sobre números</h2>
+      <section class="inputs">
+        <input id="inputNum" class="inputNum" type="number" placeholder="Digite um Número">
+        <button id="botaoPesquisaNum" class="botaoPesquisar">pesquisar</button>
+      </section>
+      <div class="resultadoPesquisa">
+        <p id="conteudoNum" class="conteudo">
+
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <section id="containerModal" class="container__modal">
+    <section id="boxModal" class="box__modal">
+      <h2 class="titulo__modal">Dados inválidos!</h2>
+      <p class="paragrafo__modal">Digite algo pelo amor de Deus.</p>
+      <button id="botaoModal" class="botao__modal">OK!</button>
+    </section>modal
+  </section>
+  <script type="module" src="./src/JS/script.js"></script>
+  
+</body>
+</html>

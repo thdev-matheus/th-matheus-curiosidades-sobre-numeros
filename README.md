@@ -21,7 +21,7 @@ https://thdev-matheus.github.io/th-matheus-curiosidades-sobre-numeros/
 <br/>
 <br/>
 
-> Escolha um número, uma data ou um ano e veja uma curiosidade sobre ele.
+> Escolha um número, uma data, ou um ano e veja uma curiosidade sobre ele.
 
 <br/>
 
